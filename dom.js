@@ -14,7 +14,7 @@ console.log(document.body)
 console.log(document.forms[0])
 console.log(document.images)
 
-s
+
 //console.log(document.getElementById("header-title"))
 var headerTitle= document.getElementById("header-title")
 var header= document.getElementById("main-header")
@@ -22,6 +22,14 @@ var header= document.getElementById("main-header")
 //headerTitle.textContent='bybye'
 //headerTitle.innertext='bybye'
 //headerTitle.innerHTML='<h3>Heelllo</h3>'
+ //headerTitle.innerText="<h3>v<h3>"
+header.style.borderBottom ="solid 20px #000"
 
-header.style.borderBottom = "solid 10px #000"
-
+var items = document.getElementsByClassName("list-group-item")
+console.log(items[2])
+items[1].textContent="Hello"
+items[1].style.fontWeight="bold"
+items[1].style.backgroundColor="yellow"
+var add =document.querySelector('.title')
+add.style.fontWeight='bold'
+add.style.color="green"
