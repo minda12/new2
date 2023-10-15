@@ -74,7 +74,7 @@ function filterItems(e)
         if(ItemName.toLowerCase().indexOf(text) != -1)
         {
             item.style.display='block'
-
+  
         }
         else{
             item.style.display='none'
@@ -82,3 +82,6 @@ function filterItems(e)
         }
     })
 }
+
+//I accidentally did filter with previous question itself so no change here
+
